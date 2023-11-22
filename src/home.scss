@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.pinimg.com/originals/bd/c6/ba/bdc6bad25f6133f12ba39364e0bc9b9a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  > form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    > input,
+    button {
+      padding: 2rem;
+      max-width: 100%;
+      margin: 10px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+}
